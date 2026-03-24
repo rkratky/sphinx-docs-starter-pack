@@ -45,3 +45,4 @@ While some of these features are available by default in the starter pack, other
     custom-templates
     enable-google-analytics
     add-documentation-testing
+    external-referencing-intersphinx
