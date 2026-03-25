@@ -9,8 +9,8 @@ Intersphinx provides a more robust alternative, linking to sections of other Sph
 labels mapped out in an inventory list ``objects.inv``. To effectively use Intersphinx, sections in 
 the target documentation set must have labels.
 
-Setup
------
+Configure the extension
+-----------------------
 
 In the ``conf.py`` file in your docs directory, add or enable ``sphinx.ext.intersphinx`` under ``extensions``:
 
