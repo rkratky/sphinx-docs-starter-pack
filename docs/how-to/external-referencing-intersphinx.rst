@@ -44,6 +44,8 @@ To check external target page labels, either search the project source code
 manually or inspect the ``objects.inv`` file. In this file, each section has a 
 unique label. To access the file, run::
 
+.. code-block:: bash
+
     python -m sphinx.ext.intersphinx https://example.com/objects.inv
 
 The appropriate labels are under ``std:label``.
