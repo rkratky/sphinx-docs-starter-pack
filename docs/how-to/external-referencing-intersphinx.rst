@@ -45,7 +45,7 @@ Check the external target labels
 
 To check external target page labels, either search the project source code 
 manually or inspect the ``objects.inv`` file. In this file, each section has a 
-unique label. To access the file, run::
+unique label. To access the file, run:
 
 .. code-block:: bash
 
@@ -53,24 +53,25 @@ unique label. To access the file, run::
 
 The output lists the different pages and their labels: 
 
-..terminal::
+.. terminal::
+    :output-only:
 
-lrd:doc
-    explanation/faq                          FAQ                                     : explanation/faq/
-    explanation/index                        Explanation                             : explanation/
-    explanation/mode-of-operation            How Chisel works                        : explanation/mode-of-operation/
-lrd:label
-    chise_faq                                FAQ                                     : explanation/faq/#chise-faq
-    chisel-releases_ref                      chisel-releases                         : reference/chisel-releases/#chisel-releases-ref
-    chisel_helloworld_tutorial               Getting started with Chisel             : tutorial/getting-started/#chisel-helloworld-tutorial
-std:doc
-    explanation/faq                          FAQ                                     : explanation/faq/
-    explanation/index                        Explanation                             : explanation/
-    explanation/mode-of-operation            How Chisel works                        : explanation/mode-of-operation/
-std:label
-    chise_faq                                FAQ                                     : explanation/faq/#chise-faq
-    chisel-releases_ref                      chisel-releases                         : reference/chisel-releases/#chisel-releases-ref
-    chisel_helloworld_tutorial               Getting started with Chisel             : tutorial/getting-started/#chisel-helloworld-tutorial
+    lrd:doc
+        explanation/faq                          FAQ                                     : explanation/faq/
+        explanation/index                        Explanation                             : explanation/
+        explanation/mode-of-operation            How Chisel works                        : explanation/mode-of-operation/
+    lrd:label
+        chise_faq                                FAQ                                     : explanation/faq/#chise-faq
+        chisel-releases_ref                      chisel-releases                         : reference/chisel-releases/#chisel-releases-ref
+        chisel_helloworld_tutorial               Getting started with Chisel             : tutorial/getting-started/#chisel-helloworld-tutorial
+    std:doc
+        explanation/faq                          FAQ                                     : explanation/faq/
+        explanation/index                        Explanation                             : explanation/
+        explanation/mode-of-operation            How Chisel works                        : explanation/mode-of-operation/
+    std:label
+        chise_faq                                FAQ                                     : explanation/faq/#chise-faq
+        chisel-releases_ref                      chisel-releases                         : reference/chisel-releases/#chisel-releases-ref
+        chisel_helloworld_tutorial               Getting started with Chisel             : tutorial/getting-started/#chisel-helloworld-tutorial
 
 The appropriate labels are under ``std:label``.
 
