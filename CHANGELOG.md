@@ -1,5 +1,50 @@
 # sphinx-docs-starter-pack changelog
 
+## Upcoming
+
+* Separate default configuration for copyright and license statements.
+* Fix the handling of non-zero exit codes from pymarkdownlnt.
+* Add a how-to guide about testing the Ulwazi theme.
+* Move the Python virtual environment from `docs/.sphinx/venv` to `docs/.venv`.
+* Make rediraffe the default extension for page redirects
+* Add default templates for the Canonical cookie banner and Google Analytics.
+
+### Changed
+
+* `docs/conf.py` [#562](https://github.com/canonical/sphinx-docs-starter-pack/pull/562)
+* `.github/workflows/check-removed-urls.yml` [#552](https://github.com/canonical/sphinx-docs-starter-pack/pull/552)
+* `.github/workflows/sphinx-python-dependency-build-checks.yml` [#552](https://github.com/canonical/sphinx-docs-starter-pack/pull/552)
+* `docs/.gitignore` [#552](https://github.com/canonical/sphinx-docs-starter-pack/pull/552)
+* `docs/.sphinx/.wordlist.txt` [#520](https://github.com/canonical/sphinx-docs-starter-pack/pull/520)
+* `docs/conf.py` [#549](https://github.com/canonical/sphinx-docs-starter-pack/pull/549), [#558](https://github.com/canonical/sphinx-docs-starter-pack/pull/558), [#552](https://github.com/canonical/sphinx-docs-starter-pack/pull/552), [#558](https://github.com/canonical/sphinx-docs-starter-pack/pull/558)
+* `docs/Makefile` [#551](https://github.com/canonical/sphinx-docs-starter-pack/pull/551), [#552](https://github.com/canonical/sphinx-docs-starter-pack/pull/552)
+* `docs/redirects.txt` [#558](https://github.com/canonical/sphinx-docs-starter-pack/pull/558)
+* `docs/_templates/header.html` [#549](https://github.com/canonical/sphinx-docs-starter-pack/pull/549)
+* `docs/_templates/footer.html` [#549](https://github.com/canonical/sphinx-docs-starter-pack/pull/549)
+
+## 1.5
+
+* Add `CONTRIBUTING.md`.
+* Rename Makefile variables to avoid collisions in host environment.
+* Rename `TARGET` variable for Vale checks to `CHECK_PATH`.
+* Remove or replace docs use of archived example product documentation site.
+* Revert the switch to a reusable `automatic-doc-checks.yml` workflow.
+* Add `-q` flag to linkchecker to only report errors or broken links.
+* Update dependency canonical-sphinx to 0.6.0 or higher.
+* Update the default runner version for markdown linting.
+
+### Changed
+
+* `docs/Makefile` [#494](https://github.com/canonical/sphinx-docs-starter-pack/pull/494), [#536](https://github.com/canonical/sphinx-docs-starter-pack/pull/536), [#544](https://github.com/canonical/sphinx-docs-starter-pack/pull/544)
+* `docs/conf.py` [#502](https://github.com/canonical/sphinx-docs-starter-pack/pull/502), [#545](https://github.com/canonical/sphinx-docs-starter-pack/pull/545)
+* `docs/how-to/guidance.rst` [#502](https://github.com/canonical/sphinx-docs-starter-pack/pull/502)
+* `docs/reference/index.rst` [#502](https://github.com/canonical/sphinx-docs-starter-pack/pull/502)
+* `docs/reference/myst-syntax-reference.md` [#502](https://github.com/canonical/sphinx-docs-starter-pack/pull/502)
+* `docs/reference/rst-syntax-reference.rst` [#502](https://github.com/canonical/sphinx-docs-starter-pack/pull/502)
+* `.github/workflows/automatic-doc-checks.yml` [#514](https://github.com/canonical/sphinx-docs-starter-pack/pull/514)
+* `.github/workflows/markdown-style-checks.yml [#535](https://github.com/canonical/sphinx-docs-starter-pack/pull/535)
+* `docs/requirements.txt` [#543](https://github.com/canonical/sphinx-docs-starter-pack/pull/543)
+
 ## 1.4.1
 
 * Fix the version slug so the upgrade script has the right release tag.
@@ -18,9 +63,8 @@
 
 ### Changed
 
-* `docs/Makefile` [#508](https://github.com/canonical/sphinx-docs-starter-pack/pull/508)
 * `docs/requirements.txt` [#496](https://github.com/canonical/sphinx-docs-starter-pack/pull/496)
-* `docs/Makefile` [#490](https://github.com/canonical/sphinx-docs-starter-pack/pull/490), [#504](https://github.com/canonical/sphinx-docs-starter-pack/pull/504)
+* `docs/Makefile` [#490](https://github.com/canonical/sphinx-docs-starter-pack/pull/490), [#504](https://github.com/canonical/sphinx-docs-starter-pack/pull/504), [#508](https://github.com/canonical/sphinx-docs-starter-pack/pull/508)
 * `docs/.sphinx/update_sp.py` [#490](https://github.com/canonical/sphinx-docs-starter-pack/pull/490)
 
 ### Removed

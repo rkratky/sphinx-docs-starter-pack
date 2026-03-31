@@ -4,10 +4,10 @@
 :relatedlinks: [GNU&#32;Make](https://www.gnu.org/software/make/)
 
 
-.. _explanation-build:
+.. _build:
 
 Build
-=====
+======
 
 Canonical's Starter Pack uses Make as its build system. Make was chosen because it's
 well-tested and available on all platforms. The majority of the build configuration is
@@ -21,7 +21,7 @@ files. They are conditional variables, so other systems can invoke the build at
 different locations without changing the docs ``Makefile``.
 
 Being primarily a Python project, all dependencies are stored in a virtual environment,
-``docs/.sphinx/venv``. The environment is ephemeral and subject to frequent change.
+``docs/.venv`` by default. The environment is ephemeral and subject to frequent change.
 Installing the starter pack initializes it, while cleaning and upgrading tears it
 down and rebuilds it.
 
@@ -45,7 +45,7 @@ files would be arranged along these lines:
     ├── ...
     ├── docs
     │   ├── ...
-    │   ├── .sphinx/venv
+    │   ├── .venv
     │   └── Makefile
     ├── src
     │   └── ...
@@ -75,4 +75,4 @@ update, requiring a rewrite of the parent build recipes.
 
 The solution to these complications is to create a bridge between the two builds, from
 the parent build to the docs ``Makefile``.
-:ref:`how-to-bridge-project-builds` is a guide for how to do this.
+:ref:`bridge-project-and-docs-builds` is a guide for how to do this.
