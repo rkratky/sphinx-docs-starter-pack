@@ -1,3 +1,6 @@
+.. meta::
+   :description: How to enable Google Analytics in your project.
+
 .. _how-to-enable-google-analytics:
 
 Enable Google Analytics
@@ -20,7 +23,7 @@ page interaction.
 The footer template provides a link for users to change their data collection
 preferences.
 
-The process for sourcing these files depends on your Starter Pack version. Check which
+The process for sourcing these files depends on your starter pack version. Check which
 version is listed in your project's ``docs/.sphinx/version`` file.
 
 

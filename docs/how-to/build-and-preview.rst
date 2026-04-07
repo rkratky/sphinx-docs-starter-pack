@@ -1,3 +1,6 @@
+.. meta::
+   :description: How to set up your environment and use make commands to build and preview documentation locally.
+
 .. _build-and-preview:
 
 Build and preview

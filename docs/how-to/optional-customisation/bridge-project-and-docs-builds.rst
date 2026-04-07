@@ -271,7 +271,7 @@ Adjust the Read the Docs build
 ------------------------------
 
 With the Makefile in a different location than usual, and its being a separate process,
-it's simplest to override the Read The Docs build in ``.readthedocs.yaml`` to call the
+it's simplest to override the Read the Docs build in ``.readthedocs.yaml`` to call the
 same build targets that developers use locally.
 
 If you use an uncommon system, you might need to install it during the workflow's

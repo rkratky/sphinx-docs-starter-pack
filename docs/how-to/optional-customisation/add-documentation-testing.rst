@@ -1,3 +1,6 @@
+.. meta::
+   :description: How to use Spread to automatically test commands in documentation and keep them in sync with your product.
+
 .. _how-to-add-documentation-testing:
 
 Use Spread to test commands in documentation

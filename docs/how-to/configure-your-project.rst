@@ -1,7 +1,12 @@
+.. meta::
+   :description: How to configure project-specific parameters.
+
 .. _configure-your-project:
 
 Configure your project
 ======================
+
+While the starter pack provides default configuration values for most settings, you'll need to set project-specific parameters like the project name to ensure the documentation reflects your project accurately.
 
 .. important::
 

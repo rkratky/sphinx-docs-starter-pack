@@ -1,3 +1,9 @@
+---
+myst:
+  html_meta:
+    description: How to import Python docstrings automatically into your documentation using Sphinx autodoc extension.
+---
+
 (sphinx-autodoc)=
 
 # Import docstrings with Sphinx `autodoc`
@@ -51,7 +57,7 @@ There are a few issues and limitations that should be taken into consideration.
 
 ### Language
 
-The extension's usage is limited to Python code. There are extensions for some other languages but they have not been tested with the Starter Pack, such as [sphinxcontrib-rust](https://sphinxcontrib-rust.readthedocs.io/en/stable/) for Rust.
+The extension's usage is limited to Python code. There are extensions for some other languages but they have not been tested with the starter pack, such as [sphinxcontrib-rust](https://sphinxcontrib-rust.readthedocs.io/en/stable/) for Rust.
 
 ### Docstring format
 

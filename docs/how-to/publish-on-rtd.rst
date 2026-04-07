@@ -1,7 +1,13 @@
+.. meta::
+   :description: How to publish your documentation on Read the Docs.
+
 .. _publish-on-rtd:
 
 Publish on Read the Docs
 ========================
+
+Publishing your documentation on Read the Docs makes it available to a wider audience with automatic builds triggered by repository updates.
+This guide walks you through the process of setting up your starter pack-based project on the Read the Docs platform.
 
 For Canonical-specific information on how to set up your documentation on Read the Docs, see the `Read the Docs at Canonical <https://library.canonical.com/documentation/read-the-docs-at-canonical>`_ and `How to publish documentation on Read the Docs <https://library.canonical.com/documentation/publish-on-read-the-docs>`_ guides.
 

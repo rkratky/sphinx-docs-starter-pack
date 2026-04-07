@@ -13,7 +13,7 @@ maintaining, and contributing to the starter pack.
 Basic setup and maintenance
 ---------------------------
 
-Set up, configure, upgrade, and customize your project to keep it organized and aligned with 
+Set up, configure, update, and customize your project to keep it organized and aligned with 
 your documentation needs.
 
 .. toctree::

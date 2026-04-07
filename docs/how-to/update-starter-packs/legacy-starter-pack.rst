@@ -8,7 +8,7 @@ Update the legacy starter pack
 
 This guide outlines the steps required to migrate a documentation project from the legacy Sphinx Documentation Starter Pack (*pre-extension* version) to the latest version that adopts the ``canonical-sphinx`` Sphinx extension.
 
-The extension-based documentation starter pack provides a set of features and configurations that are common across Canonical documentation projects. Key components, such as configuration and styling, are loaded as an add-on to your documentation project. It can significantly reduce maintenance concerns when managing your documentation.
+The extension-based documentation starter pack provides a set of features and configurations that are common across Canonical documentation projects. Key components, such as configuration and styling, are loaded as an add-on to your project. It can significantly reduce maintenance concerns when managing your documentation.
 
 .. note::
    If ``canonical-sphinx`` is included under ``extensions`` in your `conf.py`, 

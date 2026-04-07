@@ -16,7 +16,7 @@ bugs. You can transfer these improvements to your project by following these ste
 
 This guide assumes your project has minimal customizations, and the repository 
 structure closely mirrors the starter pack's. Depending on your customizations, 
-you may need to take extra steps when upgrading. 
+you may need to take extra steps when updating. 
 
 .. note::
    If ``canonical-sphinx`` is not included under ``extensions`` in your ``conf.py``, 
@@ -46,7 +46,7 @@ The recommended approach is to copy the customizations in your project to the st
 pack's config files and then replace your project's config files with the starter 
 pack's. 
 
-The changes to be made vary between projects and upgrades. Therefore, this guide 
+The changes to be made vary between projects and updates. Therefore, this guide 
 cannot be overly prescriptive.
 
 ``conf.py``
@@ -82,7 +82,7 @@ in the new ones, you can just overwrite your existing files with the new ones.
 Update the ``.sphinx`` directory
 --------------------------------
 In addition to the docs above, the ``/.sphinx`` directory is also likely to have some
-changes in each upgrade. These files are not intended to be modified by users. 
+changes in each update. These files are not intended to be modified by users. 
 
 Unless you intentionally customized files in this directory, you can simply delete 
 your project's ``/.sphinx`` directory and replace it with the starter pack's. If there 
@@ -92,7 +92,7 @@ they transfer them out.
 Review the remaining files
 --------------------------
 Some files in the starter pack may be updated less frequently, but it's a good idea 
-to review them during each upgrade and determine if there are relevant changes:
+to review them during each update and determine if there are relevant changes:
 
 -   Review ``requirements.txt``: If there are any updates, and your project's file 
     has no repository-specific requirements, you can overwrite the existing file 
@@ -119,7 +119,7 @@ Try building the docs locally and check the terminal output for errors::
 
     make run
 
-To ensure the upgraded docs will pass CI checks when you make a pull request, run 
+To ensure the updated docs will pass CI checks when you make a pull request, run 
 the following commands and fix any errors reported:
 
 -   ``make spelling``
@@ -142,12 +142,12 @@ build files are not reused.
 
 Clean up 
 --------
-There may be files that need to be deleted after the upgrade such as starter-pack 
+There may be files that need to be deleted after the update such as starter-pack 
 specific files or files that have been replaced with newer versions: 
 
 -   If you haven't done so already, delete the copies of ``conf.py``, ``Makefile``, and 
     ``/.readthedocs.yaml`` that were renamed and replaced. 
--   If you did not strictly follow this guide for this or previous upgrades, it's 
+-   If you did not strictly follow this guide for this or previous updates, it's 
     possible that you have some starter pack-specific files in your project. 
     These files can be safely deleted: 
 
