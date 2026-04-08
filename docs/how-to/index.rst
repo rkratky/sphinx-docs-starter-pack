@@ -42,13 +42,4 @@ The following guides will help you get started:
 .. toctree::
     :maxdepth: 2
 
-    bridge-project-and-doc-builds
-    diagrams-as-code-mermaid
-    create-data-tables
-    import-docstrings-with-autodoc
-    openapi
-    custom-templates
-    enable-google-analytics
-    add-documentation-testing
-    external-referencing-intersphinx
     optional-customisation/index.rst
