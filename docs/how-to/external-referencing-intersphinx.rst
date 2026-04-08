@@ -25,11 +25,8 @@ In the ``conf.py`` file in your docs directory, add or enable ``sphinx.ext.inter
        "sphinx.ext.intersphinx",
        ]
 
-In the ``conf.py`` file, there is a section to map the Sphinx documentation sets referenced in the current 
-documentation. Any new documentation set referenced in the text must be added here and contain a unique key. 
-Mapped links have the format ``(target, inventory)``, where target is the URL of the Sphinx project and 
-inventory indicates where the inventory file is located. To specify a non-standard location of the inventory, 
-specify the path as the ``inventory`` parameter.
+In the ``conf.py`` file, connect to the other project in the ``intersphinx_mapping``
+setting:
 
 .. code-block:: python
    :caption: conf.py
@@ -39,6 +36,11 @@ specify the path as the ``inventory`` parameter.
    intersphinx_mapping = {
        'project-key': ('https://example.com', None)
    }
+
+Replace ``project-key`` with the internal identifier for the project that you'll specify
+in the document markup, for example ``:external+chisel:ref:`target```. The value
+after the link points to a custom path location. If a project stores its ``objects.inv``
+at a special location, replace ``None`` with the path to it.
 
 Check the external target labels
 --------------------------------
