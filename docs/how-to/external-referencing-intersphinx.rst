@@ -82,4 +82,13 @@ Add references to the text
 
 To add in-line references, follow this structure:
 
-``:external+project_key:ref:`an_external_target```
+.. list-table::
+   :header-rows: 1
+   :widths: 20 80
+
+   * - Format
+     - Syntax
+   * - reST
+     - ``:external+project_key:ref:`an_external_target```
+   * - MyST
+     - ``{ref}`project_key:an_external_target```
