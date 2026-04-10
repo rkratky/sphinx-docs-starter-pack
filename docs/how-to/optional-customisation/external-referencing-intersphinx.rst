@@ -38,9 +38,9 @@ setting:
    }
 
 Replace ``project-key`` with the internal identifier for the project that you'll specify
-in the document markup, for example ``:external+chisel:ref:`target```. The value
-after the link points to a custom path location. If a project stores its ``objects.inv``
-at a special location, replace ``None`` with the path to it.
+in the document markup. For example, if the identifier were ``chisel``, an Intersphinx link to it would be ``:external+chisel:ref:`target```.
+
+The value after the URI points to a custom path location. If a project stores its ``objects.inv`` at a special location, replace ``None`` with the path to it.
 
 Check the external target labels
 --------------------------------
