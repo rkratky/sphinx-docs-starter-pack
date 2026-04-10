@@ -53,6 +53,7 @@ To inspect the file manually, run:
 
 .. code-block:: bash
 
+    source .sphinx/venv/bin/activate
     python -m sphinx.ext.intersphinx https://example.com/objects.inv
 
 The output lists the different pages and their labels: 
