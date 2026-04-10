@@ -47,7 +47,9 @@ Check the external target labels
 
 To check external target page labels, either search the project source code 
 manually or inspect the ``objects.inv`` file. In this file, each section has a 
-unique label. To access the file, run:
+unique label.
+
+To inspect the file manually, run:
 
 .. code-block:: bash
 
