@@ -1,5 +1,5 @@
 .. meta::
-   :description: How to customize PDF output using LaTeX configuration.
+   :description: How to customize PDF output with LaTeX.
 
 .. _pdf-customise:
 
