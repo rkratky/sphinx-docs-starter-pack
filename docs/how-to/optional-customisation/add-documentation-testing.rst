@@ -193,7 +193,7 @@ For example, consider the following ``task.yaml`` file:
 .. code-block:: yaml
     :caption: task.yaml
 
-    summary: Clone and build the starter pack
+    summary: Clone and build the Starter Pack
 
     kill-timeout: 5m
 
@@ -217,7 +217,7 @@ Include the commands from ``task.yaml`` in your documentation with:
       .. code-block:: rst
         :caption: Example ``literalinclude`` blocks
 
-        Clone the starter pack:
+        Clone the Starter Pack:
 
         .. literalinclude:: relative-path-to/task.yaml
             :language: bash
@@ -239,7 +239,7 @@ Include the commands from ``task.yaml`` in your documentation with:
       .. code-block:: md
         :caption: Example ``literalinclude`` blocks
 
-        Clone the starter pack:
+        Clone the Starter Pack:
 
         ```{literalinclude} relative-path-to/task.yaml
         :language: bash

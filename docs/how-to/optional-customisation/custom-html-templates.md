@@ -8,13 +8,13 @@ myst:
 
 # Use custom HTML templates
 
-If the default template in the starter pack doesn't fully meet your needs -- whether you want a unique layout, a custom header or footer, or a specialized sidebar for certain pages -- you can create and use a custom template for your project.
+If the default template in the Starter Pack doesn't fully meet your needs -- whether you want a unique layout, a custom header or footer, or a specialized sidebar for certain pages -- you can create and use a custom template for your project.
 
-This guide shows you how to extend or override the default templates in the starter pack to tailor the look and structure of your documentation.
+This guide shows you how to extend or override the default templates in the Starter Pack to tailor the look and structure of your documentation.
 
 ```{note}
 Base template customizations can be made to your documentation.
-However, they are not officially supported by the team maintaining the starter pack.
+However, they are not officially supported by the team maintaining the Starter Pack.
 Use them at your own discretion.
 ```
 

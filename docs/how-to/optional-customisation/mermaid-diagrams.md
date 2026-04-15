@@ -16,7 +16,7 @@ Mermaid is a popular choice that allows diagrams to be created, maintained, and 
 This guide explains how to set up the {doc}`sphinxcontrib-mermaid <sphinxcontrib-mermaid:index>` extension and use Mermaid diagrams in your documentation, with examples included.
 
 ```{note}
-While there are many other tools and/or approaches for creating diagrams in visualizations in your documentation (e.g. [C4 model], [Dia], [PlantUML], [Structurizr], etc), we only provide support for `sphinxcontrib-mermaid` in the starter pack. 
+While there are many other tools and/or approaches for creating diagrams in visualizations in your documentation (e.g. [C4 model], [Dia], [PlantUML], [Structurizr], etc), we only provide support for `sphinxcontrib-mermaid` in the Starter Pack. 
 ```
 
 ## Installation and setup

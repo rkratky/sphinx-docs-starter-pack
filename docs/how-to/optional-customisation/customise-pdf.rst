@@ -9,14 +9,14 @@ Customise PDF output
 Overview
 --------
 
-The starter pack supports PDF output via LaTeX using the ``make pdf`` command. This build process relies on system packages, Sphinx configurations, and a LaTeX template from the ``canonical-sphinx`` extension.
+The Starter Pack supports PDF output via LaTeX using the ``make pdf`` command. This build process relies on system packages, Sphinx configurations, and a LaTeX template from the ``canonical-sphinx`` extension.
 
 Customising PDF output involves two levels of configuration:
 
 * **Sphinx configuration**: built-in options for configuring LaTeX build process in :file:`conf.py`, for example: the engine used to generate the PDF, output file name, and input file paths.
 * **LaTeX configuration**: the LaTeX packages, styling, and configuration for the PDF output, set through the :literalref:`latex_elements <https://www.sphinx-doc.org/en/master/latex.html#the-latex-elements-configuration-setting>` dictionary in the project :file:`conf.py`. In the starter-pack, a default set of LaTeX elements is provided by the ``canonical-sphinx`` extension. Changing the LaTeX configuration requires overriding the default values loaded from the extension.
 
-This guide covers common practices and tips for customising PDF output from your project using the starter pack and the ``canonical-sphinx`` extension.
+This guide covers common practices and tips for customising PDF output from your project using the Starter Pack and the ``canonical-sphinx`` extension.
 
 For basic instructions about building the PDF, see :ref:`build-and-preview`.
 
