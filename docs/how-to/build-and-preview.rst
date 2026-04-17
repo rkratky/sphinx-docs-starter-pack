@@ -1,9 +1,12 @@
+.. meta::
+   :description: How to set up your environment and use make commands to build and preview documentation locally.
+
 .. _build-and-preview:
 
 Build and preview
 =================
 
-The starter pack provides a :file:`Makefile` that defines :command:`make` commands to build and view the documentation.
+The Starter Pack provides a :file:`Makefile` that defines :command:`make` commands to build and view the documentation.
 
 This guide describes how to set up your environment and use these commands to build and preview the documentation locally.
 
@@ -15,7 +18,7 @@ For more advanced information, including how to embed your docs build with your 
 Install prerequisite software
 -----------------------------
 
-The documentation framework that the starter pack uses bundles most prerequisites in a Python virtual environment, so you don't need to worry about installing them.
+The documentation framework that the Starter Pack uses bundles most prerequisites in a Python virtual environment, so you don't need to worry about installing them.
 There are only a few packages that you need to install on your host system.
 
 Before you start, make sure that you have ``make``, ``python3``, ``python3-venv``, and ``python3-pip`` on your system::
@@ -39,7 +42,7 @@ If you want to remove the installed Python packages (for example, to enforce a r
   make clean
 
 .. note::
-   - By default, the starter pack uses the latest compatible version of all tools and does not pin its requirements.
+   - By default, the Starter Pack uses the latest compatible version of all tools and does not pin its requirements.
      This might change temporarily if there is an incompatibility with a new tool version.
      There is therefore no need to use a tool like Renovate to automatically update the requirements.
 
